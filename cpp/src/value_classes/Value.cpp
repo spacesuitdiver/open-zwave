@@ -675,7 +675,6 @@ int Value::VerifyRefreshedValue
 		if( bOriginalEqual )
 		{
 			// values are the same, so signal a refresh and return
-			Value::OnValueRefreshed();
 			return 0;			// value hasn't changed
 		}
 
